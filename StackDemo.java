@@ -3,7 +3,7 @@ package DAA_lab;
 import java.util.Scanner;
 class Stack{
 	int size = 10;
-	int arr[] = new [size];
+	int arr[] = new int[size];
 	int top = -1;
 	void push(int item) {
 		if(top == size-1) {
